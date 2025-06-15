@@ -18,6 +18,10 @@ const Section = styled(motion.section)`
   padding: 4rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem; /* Adjust padding for smaller screens */
+  }
 `
 
 function App() {
