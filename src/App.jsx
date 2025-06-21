@@ -80,7 +80,7 @@ function App() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <Countdown targetDate="2026-06-20T23:59:59" onCountdownEnd={handleCountdownEnd />
+        <Countdown targetDate="2026-06-20T23:59:59" onCountdownEnd={handleCountdownEnd} />
       </Section>
       <Section
         initial={{ opacity: 0, y: 20 }}
